@@ -1,0 +1,196 @@
+@media screen and (min-width: 992px) {
+    .HeaderContainer {
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      width: 1240px;
+      height: 100px;
+      top: 10px;
+      margin: auto;
+      border-width:2px;
+      border-style:solid;;
+      border-color:black;
+      border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    .LogoVmsoux {
+        width: 350px;
+        height: 100px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        
+      }
+    
+    .NavContainer {
+      display: flex;
+      flex-direction: row;
+      height: 100px;
+      width: 890px;
+     
+      background-color: #6E3031;
+    }
+  
+    
+    .AcceuilStyle {
+      width: 174px;
+      height: 100px;
+      left:0px;
+      position: relative;
+        
+      top:-2px; 
+      margin: auto;
+  
+    
+      /* or 34px */
+      display: flex;
+      align-items: flex-end;
+      text-align: justify-all;
+      
+      border-width:2px;
+      border-style:solid;;
+      border-color:black;
+  
+      color: #C4BCB9;
+     
+
+    }
+
+    .AcceuilStyleRight {
+      width: 174px;
+      height: 100px;
+      left:0px;
+      position: relative;
+        
+      top:-2px; 
+      margin: auto;
+  
+    
+      /* or 34px */
+      display: flex;
+      align-items: flex-end;
+      text-align: justify-all;
+      
+      border-width:2px;
+      border-style:solid;;
+      border-color:black;
+  
+      color: #C4BCB9;
+      border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+
+    }
+
+.ongletStyle {
+  font-family: 'Dominik Thin';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 28px;
+      line-height: 142.6%;
+      position: relative;
+      margin: auto;
+      width: fit-content;
+      top: -30px;
+      left: 10px;
+      color: #000000;
+      
+}
+    
+  }
+  @media screen and (max-width: 991px) {
+    .HeaderContainer {
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      width: 400px;
+      height: 400px;
+      margin: auto;
+   
+    }
+
+    .LogoVmsoux {
+        width: 400px;
+        height: 200px;
+        border-width:2px;
+        border-style:solid;;
+        border-color:black;
+        
+      }
+    
+    .NavContainer {
+      display: flex;
+      flex-direction: column;
+      height: 100px;
+      width: 400px;
+      position:relative;
+      top: 205px;
+      left: -404px;
+      ;
+     
+      /* background-color: #6E3031; */
+    }
+  
+    
+    .AcceuilStyle {
+      width:400px;
+height: 50px;
+    
+      left:40%;
+   
+      
+      bottom: 45%;
+  
+      font-family: 'Dominik Thin';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 142.6%;
+  
+      /* or 34px */
+      display: flex;
+      align-items: flex-end;
+      text-align: center;
+      
+      border-width:2px;
+      border-style:solid;;
+      border-color:black;
+      color: #000000;
+    }
+
+    .AcceuilStyleRight {
+      width:400px;
+      height: 50px;
+      font-family: 'Dominik Thin';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 142.6%;
+  
+      /* or 34px */
+      display: flex;
+      align-items: flex-end;
+      text-align: center;
+      
+      border-width:2px;
+      border-style:solid;;
+      border-color:black;
+      color: #000000;
+    }
+   
+    .ongletStyle {
+      font-family: 'Dominik Thin';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 142.6%;
+          position: relative;
+          margin: auto;
+          width: fit-content;
+          
+          left: 150px;
+          color: #000000;
+    }
+  }
+  

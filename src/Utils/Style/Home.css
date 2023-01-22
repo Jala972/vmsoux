@@ -1,0 +1,81 @@
+@media screen and (min-width: 992px) {
+    .HomeContainer{
+  
+     
+        width: 1240px;
+        height: auto;
+        margin: auto;
+        text-align: center;
+        font-family: 'Dominik Thin';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        background :#eddede;
+        border-radius: 20px;;
+    }
+
+    .HomeMain {
+        width: 1240px;
+        height: fit-content;
+        margin: auto;
+}
+
+    .HomeText {
+        width: 1040px;
+        height: fit-content;
+        margin: auto; 
+        margin-bottom: 100px;
+        text-align: center;
+        font-family: 'Dominik Thin';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        top: 10px;
+        position: relative;
+        
+    }
+
+    .HomeFooter{
+        width: fit-content;
+    }
+
+}
+@media screen and (max-width: 991px) {
+    .HomeContainer{
+        position: relative;
+        top: 0px;
+        width: 400px;
+        height: auto;
+        margin: auto;
+        text-align: center;
+        font-family: 'Dominik Thin';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+    }
+
+    .HomeMain {
+        width: 400px;
+        height: fit-content;
+        margin: auto;
+}
+
+    .HomeText {
+        width: 400px;
+        height: fit-content;
+        margin: auto; 
+        text-align: center;
+        font-family: 'Dominik Thin';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        top: 10px;
+        position: relative;
+        
+    }
+
+    .HomeFooter{
+        width: 400px;
+    }
+
+}
