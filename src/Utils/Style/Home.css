@@ -1,26 +1,80 @@
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1380px) {
     .HomeContainer{
   
-     
+        position: relative;
+        top:0px;
         width: 1240px;
         height: auto;
+        margin: auto;
+        text-align: center;
+      
+        /* background: linear-gradient(45deg, #db2f2f,rgb(234, 167, 161)); */
+        border-radius: 20px;;
+    }
+
+    .HomeMain {
+        width: 1240px;
+        height: 225px;
         margin: auto;
         text-align: center;
         font-family: 'Dominik Thin';
         font-style: normal;
         font-weight: 500;
         font-size: 30px;
-        background :#eddede;
-        border-radius: 20px;;
     }
 
-    .HomeMain {
-        width: 1240px;
-        height: fit-content;
-        margin: auto;
+.HomeTitle {
+    width: 1240px;
+    z-index: 1;
+    
 }
 
     .HomeText {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 40px;
+        padding-right: 40px;
+        width: 1160px;
+        height: fit-content;
+        margin: auto; 
+        margin-bottom: 200px;
+        text-align: center;
+        font-family: 'Dominik Thin';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        top: 245px;
+        position: relative;
+        margin-bottom: 330px; 
+        background: linear-gradient(45deg, #db2f2f,rgb(234, 167, 161));
+     
+    }
+
+    .pageContainer{
+  
+        position: relative;
+        top:10px;
+        width: 1240px;
+        height: auto;
+        margin: auto;
+        text-align: center;
+      
+        background: linear-gradient(45deg, #db2f2f,rgb(234, 167, 161));
+        border-radius: 20px;;
+    }
+
+    .pageMain {
+        width: 1240px;
+        height: fit-content;
+        margin: auto;
+        text-align: center;
+        font-family: 'Dominik Thin';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+}
+
+    .pageText {
         width: 1040px;
         height: fit-content;
         margin: auto; 
@@ -30,21 +84,129 @@
         font-style: normal;
         font-weight: 500;
         font-size: 30px;
-        top: 10px;
         position: relative;
+        top:30px;
         
     }
 
     .HomeFooter{
-        width: fit-content;
+        padding-left: 20px;
+        padding-right: 20px;
+        top: -90px;
+        position: relative;
+        width: 1200px;
+        background: linear-gradient(45deg, #db2f2f,rgb(234, 167, 161));
+
     }
 
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1379px) and (min-width: 621px){
     .HomeContainer{
         position: relative;
         top: 0px;
-        width: 400px;
+        width: 80%;
+        max-height: 300px;
+        margin: auto;
+        text-align: center;
+        font-family: 'Dominik Thin';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        /* background: linear-gradient(45deg, #db2f2f,rgb(234, 167, 161)); */
+    }
+
+    .HomeMain {
+        width: 100%;
+        height: fit-content;
+        margin: auto;
+        
+}
+
+    .HomeText {
+        width: 97%;
+        height: fit-content;
+        margin: auto; 
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+        font-family: 'Dominik Thin';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 21px;
+        top: 30px;
+        position: relative;
+        border-radius: 20px;
+        background: linear-gradient(45deg, #db2f2f,rgb(234, 167, 161));
+    }
+
+    .pageContainer{
+  
+        position: relative;
+        top:0px;
+        width: 90%;
+        height: auto;
+        margin: auto;
+        text-align: center;
+      
+        background: linear-gradient(45deg, #db2f2f,rgb(234, 167, 161));
+        border-radius: 20px;;
+    }
+
+    .pageMain {
+        width: 404px;
+        height: fit-content;
+        margin: auto;
+        text-align: center;
+        font-family: 'Dominik Thin';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+}
+
+    .pageText {
+        width: 80%;
+        height: fit-content;
+        margin: auto; 
+        margin-bottom: 100px;
+        text-align: center;
+        font-family: 'Dominik Thin';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        position: relative;
+        top:30px;
+        
+    }
+
+
+    .HomeFooter{
+        width: 100%;
+        position: relative;
+        top: 50px;
+        border-radius: 20px;
+        /* border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px; */
+        background: linear-gradient(45deg, #db2f2f,rgb(234, 167, 161));
+    }
+
+    .pageFooter{
+        width: 100%;
+        position: relative;
+        top: 50px;
+        
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background: linear-gradient(45deg, #db2f2f,rgb(234, 167, 161));
+    }
+
+}
+@media screen and (max-width: 620px) {
+    .HomeContainer{
+        position: relative;
+        top: 0px;
+        width: 404px;
         height: auto;
         margin: auto;
         text-align: center;
@@ -52,30 +214,94 @@
         font-style: normal;
         font-weight: 500;
         font-size: 17px;
+        /* background: linear-gradient(45deg, #db2f2f,rgb(234, 167, 161)); */
     }
 
     .HomeMain {
-        width: 400px;
+        width: 404px;
         height: fit-content;
         margin: auto;
+        
 }
 
     .HomeText {
-        width: 400px;
+        width: 380px;
         height: fit-content;
         margin: auto; 
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
         text-align: center;
         font-family: 'Dominik Thin';
         font-style: normal;
         font-weight: 500;
-        font-size: 20px;
-        top: 10px;
+        font-size: 21px;
+        top: 30px;
         position: relative;
+        border-radius: 20px;
+        background: linear-gradient(45deg, #db2f2f,rgb(234, 167, 161));
+    }
+
+    .pageContainer{
+  
+        position: relative;
+        top:0px;
+        width: 404px;
+        height: auto;
+        margin: auto;
+        text-align: center;
+      
+        background: linear-gradient(45deg, #db2f2f,rgb(234, 167, 161));
+        border-radius: 20px;;
+    }
+
+    .pageMain {
+        width: 404px;
+        height: fit-content;
+        margin: auto;
+        text-align: center;
+        font-family: 'Dominik Thin';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+}
+
+    .pageText {
+        width: 404px;
+        height: fit-content;
+        margin: auto; 
+        margin-bottom: 100px;
+        text-align: center;
+        font-family: 'Dominik Thin';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        position: relative;
+        top:30px;
         
     }
 
+
     .HomeFooter{
-        width: 400px;
+        width: 404px;
+        position: relative;
+        top: 50px;
+        border-radius: 20px;
+        /* border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px; */
+        background: linear-gradient(45deg, #db2f2f,rgb(234, 167, 161));
     }
+
+    .pageFooter{
+        width: 404px;
+        position: relative;
+        top: 50px;
+        
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background: linear-gradient(45deg, #db2f2f,rgb(234, 167, 161));
+    }
+
 
 }

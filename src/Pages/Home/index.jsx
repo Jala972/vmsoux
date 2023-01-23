@@ -8,12 +8,9 @@ import '../../Utils/Style/Home.css'
 function Home() {
   return (
     <div className="HomeContainer">
-      <h1>
- 
-      Notre agence est spécialisée dans les services informatiques 
-pour les professionnels et les particuliers</h1>
-<div className="Homeheader">
-</div>
+     
+{/* <div className="Homeheader">
+</div> */}
 
       <div className="HomeMain">
         <Link to="/">
@@ -28,11 +25,15 @@ pour les professionnels et les particuliers</h1>
         <Footer src={Footer} /> */}
       </div>
 
-      <div className="HomeText">   
 
-<h2>
+      <div className="HomeText">   
+      {/* <h1>
  
-Nous offrons des prestations ponctuelles pour les professionnels et les particuliers</h2>
+ Notre agence est spécialisée dans les services informatiques 
+pour les professionnels et les particuliers</h1> */}
+{/* <h2>
+ 
+Nous offrons des prestations ponctuelles pour les professionnels et les particuliers</h2> */}
 
 <p>Pour les professionnels nous proposons une large gamme de compétences couvrant les domaines 
 de l'administration système, la maintenance informatique, 

@@ -1,5 +1,5 @@
 import '../../Utils/Style/Footer.css'
-import VmsouxLogo from '../../Assets/logo vmsoux.png'
+import VmsouxLogo from '../../Assets/Vmsoux carte de visite.jpg'
 
 function Footer() {
   return (
@@ -7,14 +7,14 @@ function Footer() {
       
       <div className="Footertext"> 
       <div className='FooterContactContainer'>
-      <h4> Contactez nous par mail</h4>
+      <h4> Faites votre demande de devis par mail</h4>
 <p>
   vmsoux@gmail.com </p>
   </div>
   <div className='FooterContactContainer'>
-<h4>Par Téléphone </h4>
-<p>
-06 62 26 34 52 </p></div>
+<h4>Numéro Siret </h4>
+<p> 89134831000014
+ </p></div>
 <div className='FooterContactContainer'>
 <h4> Adresse </h4>
 <p>

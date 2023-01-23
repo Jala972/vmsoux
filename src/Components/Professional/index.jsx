@@ -5,8 +5,8 @@ import '../../Utils/Style/Home.css'
 
 function Professional() {
   return (
-    <div className="HomeContainer">
-      <div className="HomeMain">
+    <div className="pageContainer">
+      <div className="pageMain">
         {/* <Link to="/">
           <SectionOne src={SectionOne} />
         </Link> */}
@@ -19,7 +19,7 @@ function Professional() {
         <Footer src={Footer} /> */}
       </div>
 
-      <div className="HomeText">   
+      <div className="pageText">   
 <h2> Expert Systèmes, Réseaux, Stockage, Sauvegarde </h2>
 <p>
   YMLB </p>
@@ -41,8 +41,11 @@ function Professional() {
 <p>
  Oberthur (+ mission à l’étranger déploiement)
 / Société générale</p>
+
+<p>
+ CV à la demande</p>
 </div>
-<div className="HomeFooter">
+<div className="pageFooter">
         <Footer src={Footer} />
       </div>
     </div>

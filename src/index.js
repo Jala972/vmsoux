@@ -6,11 +6,14 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './index.css';
 import Home from './Pages/Home'
 // import Contact from './Pages/Contact'
-import Header from './Components/Header'
+// import Header from './Components/Header'
+import Navbar from './Components/Navbar/Navbar';
+
 import Error from './Components/Error'
 import Security from './Components/Security'
 import Professional from './Components/Professional'
 import Individual from './Components/Individual'
+
 
 import reportWebVitals from './reportWebVitals';
 
@@ -20,9 +23,9 @@ import About from './Pages/Contact';
 
 const GlobalStyle = createGlobalStyle`
     div {
-        font-family:  Dominik Thin, Montserrat, 'Trebuchet MS', Helvetica, sans-serif;
+        font-family:  Dominik Thin, Montserrat, 'Trebuchet MS', Helvetica, arial, sans-serif;
         
-         
+        font-size: 100%
           width: auto;
           height: auto;
         }
@@ -32,7 +35,8 @@ const GlobalStyle = createGlobalStyle`
 render(
   <BrowserRouter>
     <GlobalStyle />
-    <Header />
+    <Navbar />
+    {/* <Header /> */}
     <Routes>
       {/* Route pour la page d'acceuil */}
       <Route path="/" exact element={<Home />} />

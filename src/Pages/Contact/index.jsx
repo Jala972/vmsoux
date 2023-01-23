@@ -5,8 +5,8 @@ import Footer from '../../Components/Footer'
 
 function About() {
   return (
-    <div className="HomeContainer">
-      <div className="HomeMain">
+    <div className="pageContainer">
+      <div className="pageMain">
         {/* <Link to="/">
           <SectionOne src={SectionOne} />
         </Link> */}
@@ -19,7 +19,7 @@ function About() {
         <Footer src={Footer} /> */}
       </div>
 
-      {/* <div className="HomeText">   
+      {/* <div className="pageText">   
 <h2> Contactez nous par mail</h2>
 <p>
   vmsoux@gmail.com </p>
@@ -31,7 +31,7 @@ function About() {
 <p>
    84 Av Philippe Auguste 75011 Paris</p>
 </div> */}
-<div className="HomeFooter">
+<div className="pageFooter">
         <Footer src={Footer} />
       </div>
     </div>

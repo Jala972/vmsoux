@@ -5,8 +5,8 @@ import Footer from '../../Components/Footer'
 
 function Security() {
   return (
-    <div className="HomeContainer">
-      <div className="HomeMain">
+    <div className="pageContainer">
+      <div className="pageMain">
         {/* <Link to="/">
           <SectionOne src={SectionOne} />
         </Link> */}
@@ -19,8 +19,28 @@ function Security() {
         <Footer src={Footer} /> */}
       </div>
 
-      <div className="HomeText">   
-<h2> La sécurité informatique </h2>
+      <div className="pageText"> 
+
+<h2>Le consentement des personnes</h2>
+
+      <p>
+
+Le consentement était déjà inscrit dans la loi Informatique et Libertés. Il est renforcé par le RGPD et les conditions de son recueil sont précisées.
+
+Il assure aux personnes concernées un contrôle fort sur leurs données, en leur permettant :
+
+    de comprendre le traitement qui sera fait de leurs données ;
+    de choisir sans contrainte d’accepter ou non ce traitement ;
+    de changer d’avis librement.
+
+Le recueil du consentement des personnes autorise le traitement de leurs données par les responsables du traitement.
+
+Souvent mis en avant lors de la souscription et l’utilisation de services, notamment en ligne, il doit être recueilli dans des conditions particulières assurant sa validité.
+</p><p>
+Plus d'information : <a href="https://www.cnil.fr/fr/les-bases-legales/consentement">
+      </a></p>
+
+<h2> Sensibilisation à la sécurité des données et des informations personnelles </h2>
 <p>
 La sécurité informatique protège l'intégrité des technologies de l'information 
 comme les systèmes, les réseaux et les données informatiques contre les attaques, 
@@ -34,17 +54,6 @@ Il ne ralentit pas le cycle de vie du produit.
 Cette méthode d'intégration de la sécurité du réseau permet de mettre en œuvre 
 les mises à jour et les réponses aux incidents rapidement et globalement
  dans un environnement en constante évolution.</p>
-
-<h2>Importance de la cybersécurité pour les entreprises</h2>
-<p>
-la cybersécurité consistaient avant tout à renforcer,
- maintenir et contrôler le périmètre des datacenters, 
- mais aujourd'hui ce périmètre tend à disparaître.
-  Les méthodes de développement, de déploiement, d'intégration 
-  et de gestion des systèmes informatiques changent profondément.
-   Avec l'arrivée des clouds publics et hybrides, les responsabilités
-    en matière de sécurité des données et de conformité réglementaire 
-    sont désormais partagées entre différents fournisseurs.  </p>
 
 <h2> Sécurité de Linux </h2>
 <p>
@@ -78,7 +87,7 @@ ils se laissent souvent dissuader par les menaces qui le guettent.
   dynamique où tout évolue en continu, à l'instar des menaces qui pèsent 
   sur la sécurité.</p>
 </div>
-<div className="HomeFooter">
+<div className="pageFooter">
         <Footer src={Footer} />
       </div>
     </div>

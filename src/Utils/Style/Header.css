@@ -1,4 +1,4 @@
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1380px) {
     .HeaderContainer {
       display: flex;
       flex-direction: row;
@@ -97,9 +97,102 @@
       color: #000000;
       
 }
-    
+@media screen and (max-width: 1379px) and (min-width: 519px){
+  .HeaderContainer {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+ 
   }
-  @media screen and (max-width: 991px) {
+
+  .LogoVmsoux {
+      width: 400px;
+      height: 200px;
+      border-width:2px;
+      border-style:solid;;
+      border-color:black;
+      
+    }
+  
+  .NavContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 400px;
+    position:relative;
+    top: 205px;
+    left: -404px;
+    ;
+   
+    /* background-color: #6E3031; */
+  }
+
+  
+  .AcceuilStyle {
+    width:400px;
+  height: 50px;
+  
+    left:40%;
+ 
+    
+    bottom: 45%;
+
+    font-family: 'Dominik Thin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 142.6%;
+
+    /* or 34px */
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    
+    border-width:2px;
+    border-style:solid;;
+    border-color:black;
+    color: #000000;
+  }
+
+  .AcceuilStyleRight {
+    width:400px;
+    height: 50px;
+    font-family: 'Dominik Thin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 142.6%;
+
+    /* or 34px */
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    
+    border-width:2px;
+    border-style:solid;;
+    border-color:black;
+    color: #000000;
+  }
+ 
+  .ongletStyle {
+    font-family: 'Dominik Thin';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 142.6%;
+        position: relative;
+        margin: auto;
+        width: fit-content;
+        
+        left: 150px;
+        color: #000000;
+  }
+}
+  }
+  @media screen and (max-width: 518px) {
     .HeaderContainer {
       display: flex;
       flex-direction: row;
@@ -135,7 +228,7 @@
     
     .AcceuilStyle {
       width:400px;
-height: 50px;
+    height: 50px;
     
       left:40%;
    

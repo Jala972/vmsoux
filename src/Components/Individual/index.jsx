@@ -5,8 +5,8 @@ import '../../Utils/Style/Home.css'
 
 function Individual() {
   return (
-    <div className="HomeContainer">
-      <div className="HomeMain">
+    <div className="pageContainer">
+      <div className="pageMain">
         {/* <Link to="/">
           <SectionOne src={SectionOne} />
         </Link> */}
@@ -19,7 +19,7 @@ function Individual() {
         <Footer src={Footer} /> */}
       </div>
 
-      <div className="HomeText">   
+      <div className="pageText">   
 <h2> Dépannage Informatique  </h2>
 <p>
 Soyez assuré de bénéficier de tout le savoir-faire d’un spécialiste
@@ -46,7 +46,7 @@ paramétrage et réparation informatiques de vos équipements ( imprimante, webc
  sfr box... )</p>
 
 </div>
-<div className="HomeFooter">
+<div className="pageFooter">
         <Footer src={Footer} />
       </div>
 
