@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/vmsoux/static/css/main.20b39f96.css",
+    "main.js": "/vmsoux/static/js/main.0d869dc9.js",
+    "static/js/787.062f8d5e.chunk.js": "/vmsoux/static/js/787.062f8d5e.chunk.js",
+    "static/media/Vmsoux carte de visite.jpg": "/vmsoux/static/media/Vmsoux carte de visite.40a9b6945482bd1cf4c2.jpg",
+    "static/media/Vmsoux carte de visite3.jpg": "/vmsoux/static/media/Vmsoux carte de visite3.bc5476bff45fa4a17b79.jpg",
+    "static/media/1f2a0ce0.jpeg": "/vmsoux/static/media/1f2a0ce0.ef0316c290e4722fc090.jpeg",
+    "index.html": "/vmsoux/index.html",
+    "main.20b39f96.css.map": "/vmsoux/static/css/main.20b39f96.css.map",
+    "main.0d869dc9.js.map": "/vmsoux/static/js/main.0d869dc9.js.map",
+    "787.062f8d5e.chunk.js.map": "/vmsoux/static/js/787.062f8d5e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20b39f96.css",
+    "static/js/main.0d869dc9.js"
+  ]
+}
