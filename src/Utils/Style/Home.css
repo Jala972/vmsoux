@@ -43,7 +43,7 @@
         font-style: normal;
         font-weight: 500;
         font-size: 30px;
-        top: 245px;
+        top: 175px;
         position: relative;
         margin-bottom: 330px; 
         background: linear-gradient(45deg, #db2f2f,rgb(234, 167, 161));
@@ -53,7 +53,7 @@
     .pageContainer{
   
         position: relative;
-        top:10px;
+        top:20px;
         width: 1240px;
         height: auto;
         margin: auto;
@@ -92,12 +92,15 @@
     .HomeFooter{
         padding-left: 20px;
         padding-right: 20px;
-        top: -90px;
+        top: -155px;
         position: relative;
         width: 1200px;
         background: linear-gradient(45deg, #db2f2f,rgb(234, 167, 161));
 
     }
+
+   
+
 
 }
 @media screen and (max-width: 1379px) and (min-width: 621px){

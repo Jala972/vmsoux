@@ -15,43 +15,56 @@
 
   
     z-index: 3;
-    position: relative;
-    top:200px;
 
-    width: fit-content;
+    position: absolute;
+    left: 5px;
+    top:110px;
+    /* bottom: 145.05%; */
+    width: 97%;
     margin: auto;
-    text-align: center;
+
     font-family: 'Dominik Thin';
     font-style: normal;
     font-weight: 500;
-    font-size: 50px;
-   text-decoration: none;
-   list-style-type: none;
-   
+    font-size: 20;
+    line-height: 100%;
+    text-decoration: none;
+    color: rgb(10, 9, 9); /*par exemple*
 
-    /* or 68px */
+    /* or 24px */
     display: flex;
     align-items: flex-end;
 
-    color: #030202;
   }
 
 
   .BackgroundSectionOne1 {
     position: relative;
-    bottom: 118px;
+    bottom: 0px;
     width: 1240px;
-    height: 500px;
+    height: 400px;
     /* border-radius: 30px; */
     margin: auto;
-    /* z-index: 4; */
+    z-index: 1;
     background: #000000;
     mix-blend-mode: darken;
-    opacity: 0.9;
-   
+    opacity: 0.7;
+    object-fit: cover;
    
    
   }
+
+  /* .ImgSectionOne {
+    position: relative;
+    width: 1240px;
+    height: 500px;
+    top: 0px;
+    
+    z-index: 2;
+    object-fit: cover; */
+
+    /* background: url(eric-muhr-P_XxsdVgtpQ-unsplash.jpg); */
+  
 
 }
 
@@ -65,7 +78,7 @@
 
     position: absolute;
     left: 5px;
-    top: 40px;
+    top: 70px;
     /* bottom: 145.05%; */
     width: 97%;
     margin: auto;
@@ -73,7 +86,7 @@
     font-family: 'Dominik Thin';
     font-style: normal;
     font-weight: 500;
-    font-size: 20;
+    font-size: 32px;
     line-height: 100%;
     text-decoration: none;
     color: rgb(10, 9, 9); /*par exemple*
@@ -95,12 +108,13 @@
     position: relative;
     bottom: -10px;
     width: 100%;
-    height: auto;
-   
-  
-    opacity: 0.7;
+    height: 250px;
+  object-fit: cover;
     border-radius: 25px;
     z-index: 1;
+    background: #000000;
+    mix-blend-mode: darken;
+    opacity: 0.7;
    
   }
 
@@ -110,7 +124,8 @@
     height: 111px;
     top: 0px;
     border-radius: 25px;
-    z-index: 1;
+    z-index: 2;
+    object-fit: cover;
 
     /* background: url(eric-muhr-P_XxsdVgtpQ-unsplash.jpg); */
   }
@@ -169,7 +184,7 @@
     height: 200px;
     background: #000000;
     mix-blend-mode: darken;
-    opacity: 0.3;
+    opacity: 0.7;
     border-radius: 25px;
     z-index: 1;
   }

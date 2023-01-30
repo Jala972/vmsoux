@@ -35,7 +35,7 @@ ul {
     margin-right: 70px;
     color: #f1f1f1;
     cursor: pointer;
-
+    text-decoration: none;
     font-family: 'Dominik Thin';
     font-style: normal;
     font-weight: 500;
@@ -94,10 +94,13 @@ ul {
 }
 
 .items {
+    font-size: 20px;
     height: 50px;
     width: 100%;
     line-height: 50px;
     color: #f1f1f1;
+    text-decoration: none;
+    text-decoration-line: none;
 }
 
 .btn {
@@ -156,6 +159,7 @@ ul {
 }
 
 .items {
+    font-size: 17px;
     height: 50px;
     width: 100%;
     line-height: 50px;
