@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom'
-import SectionOne from '../../Components/SectionOne'
+// import { Link } from 'react-router-dom'
+// import SectionOne from '../../Components/SectionOne'
 import '../../Utils/Style/Home.css'
 import Footer from '../../Components/Footer'
 
